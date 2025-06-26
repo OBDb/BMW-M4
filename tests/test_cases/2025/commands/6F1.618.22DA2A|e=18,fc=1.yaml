@@ -1,0 +1,32 @@
+command_id: 6F1.618.22DA2A|e=18,fc=1
+test_cases:
+- expected_values:
+    BMW_TQ_CNVRT_RPM: 0
+    BMW_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+- expected_values:
+    BMW_TQ_CNVRT_RPM: 1278
+    BMW_TRANS_SHAFT_RPM: 628
+  response: |-
+    618F1100762DA2A04FE
+    618F1210274FFFFFFFF
+- expected_values:
+    BMW_TQ_CNVRT_RPM: 1418
+    BMW_TRANS_SHAFT_RPM: 2218
+  response: |-
+    618F1100762DA2A058A
+    618F12108AAFFFFFFFF
+- expected_values:
+    BMW_TQ_CNVRT_RPM: 1994
+    BMW_TRANS_SHAFT_RPM: 1519
+  response: |-
+    618F1100762DA2A07CA
+    618F12105EFFFFFFFFF
+- expected_values:
+    BMW_TQ_CNVRT_RPM: 2408
+    BMW_TRANS_SHAFT_RPM: 1832
+  response: |-
+    618F1100762DA2A0968
+    618F1210728FFFFFFFF
