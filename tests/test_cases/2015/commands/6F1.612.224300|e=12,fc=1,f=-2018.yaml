@@ -1,0 +1,5 @@
+command_id: 6F1.612.224300|e=12,fc=1,f=-2018
+test_cases:
+- expected_values:
+    M4_ET_8: 69.75
+  response: 612F1046243009D

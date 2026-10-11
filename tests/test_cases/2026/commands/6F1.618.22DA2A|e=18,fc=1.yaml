@@ -1,0 +1,32 @@
+command_id: 6F1.618.22DA2A|e=18,fc=1
+test_cases:
+- expected_values:
+    M4_TQ_CNVRT_RPM: 0
+    M4_TRANS_SHAFT_RPM: 0
+  response: |-
+    618F1100762DA2A0000
+    618F1210000FFFFFFFF
+- expected_values:
+    M4_TQ_CNVRT_RPM: 43
+    M4_TRANS_SHAFT_RPM: 15
+  response: |-
+    618F1100762DA2A002B
+    618F121000FFFFFFFFF
+- expected_values:
+    M4_TQ_CNVRT_RPM: 1791
+    M4_TRANS_SHAFT_RPM: 2800
+  response: |-
+    618F1100762DA2A06FF
+    618F1210AF0FFFFFFFF
+- expected_values:
+    M4_TQ_CNVRT_RPM: 3307
+    M4_TRANS_SHAFT_RPM: 3309
+  response: |-
+    618F1100762DA2A0CEB
+    618F1210CEDFFFFFFFF
+- expected_values:
+    M4_TQ_CNVRT_RPM: 3584
+    M4_TRANS_SHAFT_RPM: 2084
+  response: |-
+    618F1100762DA2A0E00
+    618F1210824FFFFFFFF
