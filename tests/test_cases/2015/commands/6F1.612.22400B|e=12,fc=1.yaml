@@ -1,0 +1,8 @@
+command_id: 6F1.612.22400B|e=12,fc=1
+test_cases:
+- expected_values:
+    M4_LAMBDA_6F1: 0
+  response: |-
+    612F1101162400B0776
+    612F12107720000008A
+    612F12200000008FFFF

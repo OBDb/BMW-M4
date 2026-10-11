@@ -1,0 +1,42 @@
+command_id: 6F1.640.221700|e=40,fc=1
+test_cases:
+- expected_values:
+    M4_ODO_2: 119989
+  response: |-
+    640F110076217000001
+    640F121D4B5FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120166
+  response: |-
+    640F110076217000001
+    640F121D566FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120176
+  response: |-
+    640F110076217000001
+    640F121D570FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120213
+  response: |-
+    640F110076217000001
+    640F121D595FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120241
+  response: |-
+    640F110076217000001
+    640F121D5B1FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120257
+  response: |-
+    640F110076217000001
+    640F121D5C1FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120273
+  response: |-
+    640F110076217000001
+    640F121D5D1FFFFFFFF
+- expected_values:
+    M4_ODO_2: 120335
+  response: |-
+    640F110076217000001
+    640F121D60FFFFFFFFF
