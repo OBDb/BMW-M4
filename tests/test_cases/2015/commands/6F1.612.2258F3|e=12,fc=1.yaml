@@ -1,0 +1,8 @@
+command_id: 6F1.612.2258F3|e=12,fc=1
+test_cases:
+- expected_values:
+    M4_LOW_SIDE_FUEL_P: 7.037
+  response: 612F1056258F31B7D
+- expected_values:
+    M4_LOW_SIDE_FUEL_P: 7.049
+  response: 612F1056258F31B89
