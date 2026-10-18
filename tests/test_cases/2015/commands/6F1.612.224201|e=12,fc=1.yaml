@@ -1,0 +1,5 @@
+command_id: 6F1.612.224201|e=12,fc=1
+test_cases:
+- expected_values:
+    M4_BARO: 103.20703
+  response: 612F1056242016735

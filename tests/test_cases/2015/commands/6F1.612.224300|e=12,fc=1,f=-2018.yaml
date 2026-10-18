@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     M4_ET_8: 69.75
   response: 612F1046243009D
+- expected_values:
+    M4_ET_8: 88.5
+  response: 612F104624300B6
