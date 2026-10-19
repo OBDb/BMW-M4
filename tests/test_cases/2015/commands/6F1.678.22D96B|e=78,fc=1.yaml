@@ -1,8 +1,17 @@
 command_id: 6F1.678.22D96B|e=78,fc=1
 test_cases:
 - expected_values:
+    M4_IHX_AAT: 8.5
+  response: 678F10562D96B0061
+- expected_values:
+    M4_IHX_AAT: 10
+  response: 678F10562D96B0064
+- expected_values:
     M4_IHX_AAT: 12
   response: 678F10562D96B0068
+- expected_values:
+    M4_IHX_AAT: 13
+  response: 678F10562D96B006A
 - expected_values:
     M4_IHX_AAT: 13.5
   response: 678F10562D96B006B
