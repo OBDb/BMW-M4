@@ -1,6 +1,24 @@
 command_id: 6F1.629.22DBE5|e=29,fc=1
 test_cases:
 - expected_values:
+    M4_BRAKE_P: 5.1
+  response: |-
+    629F1100F62DBE50033
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    M4_BRAKE_P: 24
+  response: |-
+    629F1100F62DBE500F0
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
+    M4_BRAKE_P: 29.9
+  response: |-
+    629F1100F62DBE5012B
+    629F121000000000000
+    629F12200000000FFFF
+- expected_values:
     M4_BRAKE_P: -0.2
   response: |-
     629F1100F62DBE5FFFE
